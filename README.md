@@ -5,7 +5,7 @@ import re
 
 # This will define the log file to monitor, This can be any log file path
 # For example, you can use "/var/log/auth.log" for authentication logs on Linux
-LOG_FILE_PATH = "/Users/aaron/Desktop/Coolege/CYB 333/Test.docx"  # Replace with the path to your log file
+LOG_FILE_PATH = "/var/log/auth.log"  # Replace with the path to your log file
 
 # Define perameters of keywords or patterns to look for, this is set up for unauthroized access or failed login attems
 SUSPICIOUS_PATTERNS = [
